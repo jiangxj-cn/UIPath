@@ -1,0 +1,53 @@
+{
+  "name": "jd",
+  "description": "jd",
+  "main": "jd.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.0-preview]",
+    "UiPath.Mail.Activities": "[1.9.0-preview]",
+    "UiPath.System.Activities": "[20.6.1-preview]",
+    "UiPath.UIAutomation.Activities": "[20.6.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.6.0.0",
+  "projectVersion": "2.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [
+      {
+        "name": "errorInfo",
+        "type": "UiPath.Activities.Contracts.ExceptionHandlerArgs, UiPath.Activities.Contracts, Version=20.6.0.0, Culture=neutral, PublicKeyToken=null",
+        "required": false,
+        "hasDefault": false
+      }
+    ],
+    "output": [
+      {
+        "name": "result",
+        "type": "UiPath.Activities.Contracts.ErrorAction, UiPath.Activities.Contracts, Version=20.6.0.0, Culture=neutral, PublicKeyToken=null"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic"
+}
