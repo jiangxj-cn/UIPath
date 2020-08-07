@@ -1,7 +1,7 @@
 {
-  "name": "jd_honor",
-  "description": "jd_honor",
-  "main": "jd_honor.xaml",
+  "name": "JD_TEST",
+  "description": "JD_TEST",
+  "main": "jd_TEST.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.0-preview]",
     "UiPath.Mail.Activities": "[1.9.0-preview]",
@@ -12,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.6.0.0",
-  "projectVersion": "0.0.2",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -34,20 +34,8 @@
     "fileInfoCollection": []
   },
   "arguments": {
-    "input": [
-      {
-        "name": "errorInfo",
-        "type": "UiPath.Activities.Contracts.ExceptionHandlerArgs, UiPath.Activities.Contracts, Version=20.6.0.0, Culture=neutral, PublicKeyToken=null",
-        "required": false,
-        "hasDefault": false
-      }
-    ],
-    "output": [
-      {
-        "name": "result",
-        "type": "UiPath.Activities.Contracts.ErrorAction, UiPath.Activities.Contracts, Version=20.6.0.0, Culture=neutral, PublicKeyToken=null"
-      }
-    ]
+    "input": [],
+    "output": []
   },
   "expressionLanguage": "VisualBasic"
 }
